@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+
+/* Heading */
+
+.mainHeading{
+    text-align: center;
+    margin-top: 5%;
+}
+
+p, .head1{
+    color: hsl(229, 6%, 66%);
+}
+
+.headPara{
+    margin: 2% 30%;
+}
+
+/* Box-Cards */
+
+.mainBox{
+    margin: 7% 1%;
+}
+
+.boxM{
+height: 300px;
+width: 400px;
+border-radius: 5px;
+margin: 20px;
+box-shadow: 0 7px 7px grey;
+padding:40px;
+}
+
+.boxImg{
+    float: right;
+    margin-top: 40px;
+}
+
+.super{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    position: absolute;
+    top:70%;
+    }
+.team{
+border-top: 4px solid hsl(0, 78%, 62%);
+margin: 0 auto;
+
+}
+.karma{
+border-top: 4px solid hsl(34, 97%, 64%);
+margin: 3% auto;
+top: 110%;
+
+}
+.calc{
+border-top: 4px solid hsl(212, 86%, 64%);
+position: absolute;
+right: 2%;
+top: 70%;
+
+}
+
+/* footer */
+
+.attribution{
+    text-align: center;
+}
+
+/* Media Query */
+
+
+@media (max-width: 1320px) and (min-width:100px){
+    .super, .team, .karma, .calc{
+        position: static;
+        margin: 7% auto;
+    }
+    .mainBox{margin-top: 15%;}
+    .headPara{
+        margin: 2% 15%;
+    }
+
+
+
+}
+
+
+
+
+
